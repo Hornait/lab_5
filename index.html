@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic"
@@ -13,19 +13,32 @@
     />
   </head>
   <body>
+    <!-- --------------header----------- -->
     <header>
-      <nav class="center head">
-        <div><h1 class="style">Velocity</h1></div>
+      <nav class="container head">
+        <div><h1 class="style logo nav-bar">Velocity</h1></div>
         <div class="nav-bar">
           <div class="style item-menu home">Home</div>
           <div class="style item-menu contact">Contact</div>
         </div>
       </nav>
-    </header>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn nav-bar" for="menu__toggle">
+          <span></span>
+        </label>
 
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#">Home</a></li>
+          <li><a class="menu__item" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- --------------header----------- -->
     <main>
+      <!-- --------------section 1--------------- -->
       <section class="velocity nav-bar">
-        <div class="velocity-content nav-bar center">
+        <div class="velocity-content nav-bar container">
           <div class="style velocity-text headlines white">
             This is Velocity
           </div>
@@ -39,50 +52,58 @@
           </div>
         </div>
       </section>
-
-      <section class="familiarization nav-bar white">
+      <!-- --------------section 1--------------- -->
+      <!-- --------------section 2--------------- -->
+      <section class="familiarization nav-bar white container">
         <div class="familiarization-content nav-bar">
           <div class="us-services style headlines">
             <div class="what-we-do">what we do</div>
             <div class="hint">This is some text inside of a div block.</div>
           </div>
           <div class="description nav-bar style">
-            <div class="graphic-design-global">
-              <div class="box">
+            <div class="design-global nav-bar">
+              <div class="box nav-bar">
                 <img src="./imag/services/watch.svg" alt="watch" />
               </div>
-              <div class="graphic-design style headlines">graphic design</div>
-              <div class="description-awesome-code">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique.
+              <div class="op">
+                <div class="free style headlines">graphic design</div>
+                <div class="description-awesome-code">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </div>
               </div>
             </div>
-            <div class="awesome-code-global">
-              <div class="box">
+            <div class="design-global nav-bar">
+              <div class="box nav-bar">
                 <img src="./imag/services/arrows.svg" alt="arrows" />
               </div>
-              <div class="awesome-code style headlines">awesome code</div>
-              <div class="description-awesome-code">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique.
+              <div class="op">
+                <div class="free style headlines">awesome code</div>
+                <div class="description-awesome-code">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </div>
               </div>
             </div>
-            <div class="free-template-global">
-              <div class="box">
+            <div class="design-global nav-bar">
+              <div class="box nav-bar">
                 <img src="./imag/services/box.svg" alt="box" />
               </div>
-              <div class="free-template style headlines">free template</div>
-              <div class="description-awesome-code">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique.
+              <div class="op">
+                <div class="free style headlines">free template</div>
+                <div class="description-awesome-code">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
+      <!-- --------------section 2--------------- -->
+      <!-- --------------section 3--------------- -->
       <section class="services nav-bar">
-        <div class="services-global nav-bar center">
+        <div class="services-global nav-bar container">
           <div>
             <div class="first-block-services style headlines white">
               services
@@ -92,30 +113,30 @@
             </div>
           </div>
           <div class="services-content nav-bar">
-            <div>
+            <div class="der">
               <div class="service-one">
-                <img src="./imag/services/service-one.svg" alt="service-one" />
+                <img
+                  class="ref"
+                  src="./imag/services/service-one.svg"
+                  alt="service-one"
+                />
               </div>
               <div class="style headlines first-services white">
                 SERVICES one
               </div>
               <div class="white style content-services">
-                <center>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  <br />
-                  Suspendisse varius enim in eros elementum tristique.Lorem
-                  <br />
-                  ipsum dolor sit amet, consectetur adipiscing elit. <br />
-                  Suspendisse varius.
-                </center>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Suspendisse varius.
               </div>
               <div class="bottun-services style headlines white nav-bar">
                 Learn more
               </div>
             </div>
-            <div>
+            <div class="der">
               <div class="service-two">
                 <img
+                  class="ref"
                   src="./imag/services/services-two.svg"
                   alt="services-two"
                 />
@@ -124,14 +145,9 @@
                 SERVICES two
               </div>
               <div class="white style content-services">
-                <center>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  <br />
-                  Suspendisse varius enim in eros elementum tristique.Lorem
-                  <br />
-                  ipsum dolor sit amet, consectetur adipiscing elit. <br />
-                  Suspendisse varius.
-                </center>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Suspendisse varius.
               </div>
               <div class="bottun-services style headlines white nav-bar">
                 Learn more
@@ -140,7 +156,8 @@
           </div>
         </div>
       </section>
-
+      <!-- --------------section 3--------------- -->
+      <!-- --------------section 4--------------- -->
       <section class="tab-section">
         <div class="tab-global nav-bar">
           <div class="tab-section-headline style headlines">
@@ -158,7 +175,7 @@
               <div class="button-tab style headlines white">tab button 3</div>
             </div>
             <div>
-              <div class="west center"></div>
+              <div class="west container"></div>
               <div class="description-west">
                 <div class="headline-west style">Some Title Here</div>
                 <div>
@@ -180,10 +197,12 @@
           </div>
         </div>
       </section>
+      <!-- --------------section 4--------------- -->
     </main>
-
+    <!-- -------------footeer----------- -->
     <footer>
       <p class="the-end style">Copyright Velocity Inc. Made in Webflow.</p>
     </footer>
+    <!-- -------------footeer----------- -->
   </body>
 </html>

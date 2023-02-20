@@ -207,7 +207,8 @@ h1 {
 .velocity-content {
   flex-direction: column;
   justify-content: space-between;
-  height: 200px;
+  align-items: center;
+  height: 250px;
 }
 .velocity-text {
   font-size: 60px;
@@ -215,8 +216,10 @@ h1 {
   letter-spacing: 4px;
 }
 .button-velocity-group {
-  justify-content: center;
-  margin-top: 10px;
+  width: 80%;
+  height: 35%;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .velocity-group {
   padding: 12px 30px;
@@ -224,13 +227,11 @@ h1 {
 }
 .sign-up {
   border: none;
-  margin-right: 10px;
   background: #69b9ff;
   border-radius: 4px;
 }
 .learn-more {
   background: none;
-  margin-left: 10px;
   border: 1px solid #ffffff;
   border-radius: 4px;
 }
@@ -297,12 +298,14 @@ h1 {
 /* ------------------------------------------------- section 2*/
 /* ------------------------------------------------- section 3*/
 .services {
-  height: 842px;
+  height: 100%;
+  padding: 40px 0;
   background: #192024;
   align-items: center;
 }
 .services-global {
-  height: 680px;
+  min-height: 680px;
+  height: 100%;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -326,12 +329,13 @@ h1 {
   height: 100%;
 }
 .der {
+  height: 49%;
   width: 47%;
 }
 .service-one,
 .service-two {
   width: 100%;
-  height: 55%;
+  height: 50%;
 }
 .first-services {
   height: 10%;
@@ -339,12 +343,13 @@ h1 {
   letter-spacing: 7px;
 }
 .content-services {
-  margin-bottom: 17px;
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 25px;
   text-align: center;
 }
 .bottun-services {
+  height: 10%;
   font-size: 16px;
   line-height: 21px;
   letter-spacing: 2px;
@@ -442,9 +447,9 @@ footer {
   .head {
     justify-content: flex-end;
   }
-  .familiarization {
-    height: 680px;
-  }
+  /* .familiarization {
+    height: 100%;
+  } */
   .description {
     height: 70%;
     flex-direction: column;
@@ -475,6 +480,12 @@ footer {
   .velocity-text {
     font-size: 50px;
   }
+  .button-velocity-group {
+    flex-direction: column;
+  }
+  .learn-more {
+    margin-top: 10px;
+  }
   .familiarization {
     height: 100%;
   }
@@ -489,6 +500,6 @@ footer {
 }
 @media (max-width: 350px) {
   .velocity-text {
-    font-size: 45px;
+    font-size: 40px;
   }
 }

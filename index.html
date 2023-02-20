@@ -15,24 +15,27 @@
   <body>
     <!-- --------------header----------- -->
     <header>
-      <nav class="container head">
+      <nav class="container head nav-bar">
+        <div class="hamburger-menu navbar">
+          <div class="nav-container">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+            <div class="menu-items">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Contact</a></li>
+            </div>
+          </div>
+        </div>
         <div><h1 class="style logo nav-bar">Velocity</h1></div>
         <div class="nav-bar">
           <div class="style item-menu home">Home</div>
           <div class="style item-menu contact">Contact</div>
         </div>
       </nav>
-      <div class="hamburger-menu">
-        <input id="menu__toggle" type="checkbox" />
-        <label class="menu__btn nav-bar" for="menu__toggle">
-          <span></span>
-        </label>
-
-        <ul class="menu__box">
-          <li><a class="menu__item" href="#">Home</a></li>
-          <li><a class="menu__item" href="#">Contact</a></li>
-        </ul>
-      </div>
     </header>
     <!-- --------------header----------- -->
     <main>
@@ -129,7 +132,7 @@
                 Suspendisse varius enim in eros elementum tristique.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Suspendisse varius.
               </div>
-              <div class="bottun-services style headlines white nav-bar">
+              <div class="bottun-services style headlines white">
                 Learn more
               </div>
             </div>
@@ -149,7 +152,7 @@
                 Suspendisse varius enim in eros elementum tristique.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Suspendisse varius.
               </div>
-              <div class="bottun-services style headlines white nav-bar">
+              <div class="bottun-services style headlines white">
                 Learn more
               </div>
             </div>
@@ -159,14 +162,14 @@
       <!-- --------------section 3--------------- -->
       <!-- --------------section 4--------------- -->
       <section class="tab-section">
-        <div class="tab-global nav-bar">
+        <div class="tab-global container nav-bar">
           <div class="tab-section-headline style headlines">
             <div class="first-tab-section-headline">Tab Section</div>
             <div class="last-block-services color">
               This is some text inside of a div block.
             </div>
           </div>
-          <div class="content-tab-section">
+          <div class="content-tab-section nav-bar">
             <div class="buttons-line nav-bar">
               <div class="button-tab button-tab-1 style headlines white">
                 tab button 1
@@ -174,8 +177,10 @@
               <div class="button-tab style headlines white">tab button 2</div>
               <div class="button-tab style headlines white">tab button 3</div>
             </div>
-            <div>
-              <div class="west container"></div>
+            <div class="west">
+              <div>
+                <img class="west-paint" src="/imag/west.svg" alt="west" />
+              </div>
               <div class="description-west">
                 <div class="headline-west style">Some Title Here</div>
                 <div>
